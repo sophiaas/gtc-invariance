@@ -1,0 +1,14 @@
+numpy
+wandb
+matplotlib
+jupyter
+seaborn
+pandas
+torch>=1.3
+numpy
+scipy
+lie_learn
+joblib
+torch-tools @ git+https://github.com/sophiaas/torch-tools.git
+transform-datasets @ git+https://github.com/sophiaas/transform-datasets.git
+
