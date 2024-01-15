@@ -15,10 +15,10 @@ parser.add_argument(
     "--sweep_id", type=str, help="sweep id."
 )
 parser.add_argument(
-    "--entity", default="naturalcomputation", type=str, help="wandb entity name."
+    "--entity", default="", type=str, help="wandb entity name."
 )
 parser.add_argument(
-    "--project", default="bispectrum", type=str, help="wandb project name."
+    "--project", default="", type=str, help="wandb project name."
 )
 parser.add_argument(
     "--devices", nargs="+", help="list of devices to run on", default=[0, 1, 2]

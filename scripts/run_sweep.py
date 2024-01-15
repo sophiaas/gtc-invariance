@@ -11,7 +11,6 @@ parser.add_argument(
     "--sweep_config",
     type=str,
     help="Name of .py sweep config file with no extension.",
-    default="s1_sweep",
 )
 parser.add_argument(
     "--n_agents", type=int, help="number of parallel agents to run", default=3
@@ -24,8 +23,7 @@ parser.add_argument(
 parser.add_argument(
     "--config",
     type=str,
-    help="Name of .py config file with no extension.",
-    default="s1",
+    help="Name of .py config file with no extension."
 )
 parser.add_argument(
     "--devices", nargs="+", help="list of devices to run on", default=[0, 1, 2]

@@ -9,8 +9,8 @@ parser.add_argument(
     type=str,
     help="Name of .py config file with no extension."
 )
-parser.add_argument("--entity", type=str, help="wandb entity for sweep", default="naturalcomputation")
-parser.add_argument("--project", type=str, help="wandb project for sweep", default="tcgpool-datasets")
+parser.add_argument("--entity", type=str, help="wandb entity for sweep")
+parser.add_argument("--project", type=str, help="wandb project for sweep")
 parser.add_argument("-sweep_id", type=str, help="id for sweep")
 
 

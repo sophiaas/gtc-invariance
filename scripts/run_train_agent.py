@@ -13,8 +13,8 @@ parser.add_argument("--device", type=int, help="device to run on", default=0)
 parser.add_argument(
     "--n_examples", type=int, help="number of data examples", default=100000000
 )
-parser.add_argument("--entity", type=str, help="wandb entity for sweep", default="naturalcomputation")
-parser.add_argument("--project", type=str, help="wandb project for sweep", default="tcgpool")
+parser.add_argument("--entity", type=str, help="wandb entity for sweep")
+parser.add_argument("--project", type=str, help="wandb project for sweep")
 parser.add_argument("-sweep_id", type=str, help="id for sweep")
 
 
