@@ -1,6 +1,6 @@
 # The $G$-Triple Correlation Layer for Robust $G$-Invariance in $G$-Equivariant Networks
 
-This repository is the official accompaniment to _A General Framework for Robust G-Invariance in G-Equivariant Networks_ (2023) by Sophia Sanborn and Nina Miolane, published in the _Proceedings of the 27th Conference on Neural Information Processing Systems (NeurIPS)._
+This repository is the official accompaniment to _A General Framework for Robust G-Invariance in G-Equivariant Networks_ (2023) by Sophia Sanborn and Nina Miolane, published in the _Proceedings of the 37th Conference on Neural Information Processing Systems (NeurIPS)._
 
 ## Installation
 
