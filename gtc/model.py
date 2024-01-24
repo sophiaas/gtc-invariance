@@ -9,5 +9,4 @@ def create_model(block_configs):
             config.params["in_type"] = self.blocks[-1].out_type
         block = config.build()
         blocks[i] = block
-    import pdb; pdb.set_trace()
     return torch.nn.Sequential(blocks)
