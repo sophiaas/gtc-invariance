@@ -44,10 +44,6 @@ class GTrainer(Trainer):
     def step(self, data_loader, grad=True):
         """Compute a single step of training.
 
-        This example is a minimal implementation of the `step` function
-        for a classification problem with a simple regularization on
-        the model parameters.
-
         Parameters
         ----------
         data_loader : torch.utils.data.dataloader.DataLoader
@@ -58,7 +54,7 @@ class GTrainer(Trainer):
         -------
         log_dict : dictionary with losses to be logged by the trainer/logger
             format - {'total_loss': total_loss, 'l1_penalty': l1_penalty, ...}
-            Your dictionary must contain a key called `total_loss`
+            Dictionary must contain a key called `total_loss`
 
         """
         log_dict = {"loss": 0, 
